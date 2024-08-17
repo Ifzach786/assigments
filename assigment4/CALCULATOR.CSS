@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+body{
+   
+    width: 99%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+}
+.calculator{
+   
+  padding: 20px;
+  border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 3px 10px rgba(113, 111, 111, 0.8);
+   background:  rgba(0, 0, 0, 0.5);
+}
+.calculator input{
+    width: 320px;
+    padding: 20px;
+   margin: 10px;
+   background-color: rgba(255, 255,255, 0.3);
+   text-align: right;
+   font-size: 64px;
+   color: white;
+   box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4);
+   border: solid 2px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+   overflow: scroll;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255,255, 0.3);
+    border-radius: 25px;
+    font-size: 24px;
+    text-shadow: rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.3);
+
+}
+.ac,.del{
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    background-color: rgb(255, 153, 0);
+}
+.operator{
+    color: rgb(255, 153, 0) ;
+}
+.equal{
+    background-color:rgb(255, 153, 0) ;
+    color: white;
+}
