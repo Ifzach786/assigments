@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 1000px;
+    width: 99%;
+    border: 1px solid black;
+}
+.head{
+    height: 100px;
+    width: 99%;
+    border: 1px solid black;
+}
+.nav{
+    height: 70px;
+    width: 99%;
+    border: 1px solid black;
+}
